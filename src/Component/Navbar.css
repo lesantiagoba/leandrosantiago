@@ -1,0 +1,44 @@
+.NavbarContainer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Laila', sans-serif;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    height: 99px;
+}
+
+.NavbarContainers-Name{
+    margin-left: 206px;
+    margin-right:173px;
+   
+}
+
+.NavbarContainers-Links{
+    margin-right: 334px;
+}
+
+.NavbarContainers-Links
+nav
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.NavbarContainers-Links
+nav
+ul
+li{
+    display: flex;
+    list-style: none;
+    margin-left: 76px;
+    
+}
+
+.Links{
+    color: white;
+    text-decoration: none;
+}

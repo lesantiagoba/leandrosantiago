@@ -1,0 +1,27 @@
+.AboutMeContainer
+{
+    display: flex;
+}
+
+.Left_Image
+img
+{
+    width: 279px;
+    height:263px;
+    border-radius: 360px;
+}
+
+.Left_Name{
+    text-align: center;
+    font-weight: bolder;
+
+    
+}
+
+.AboutMeContainer-Right
+{
+    margin-top: 115px;
+    margin-left: 94px;
+    font-weight: bold;
+    text-align: justify;
+}
