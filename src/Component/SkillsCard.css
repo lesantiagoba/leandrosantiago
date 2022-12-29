@@ -1,0 +1,4 @@
+.SkillsCardContainer{
+    display: flex;
+    flex-direction: column;
+}

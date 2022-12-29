@@ -15,7 +15,7 @@ const EducationCard = (
      
     return(
         
-        <div className="EducationContainer">
+        <div className="EducationContainerCard">
             <div className="EducationContainer-Left">
                 <div className="Left-Img">
                     <img src={ImgUrl} />

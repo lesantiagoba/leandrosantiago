@@ -1,0 +1,43 @@
+.EducationContainerCard
+{
+    display: flex;
+    margin-bottom: 104px;
+    align-items: center;
+    
+}
+
+.EducationContainer-Left
+{
+    text-align: center;
+    margin-right: 80px ;
+}
+
+
+.EducationContainer-Left
+.Left-Img
+img
+{
+    width: 259px;
+    height: 264px;
+}
+
+
+.Right-Titulo
+{
+    text-align: center;
+}   
+
+.Right-Honor
+{
+    text-align: center;
+}
+
+.Right-Dates{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Right-Description{
+    text-align: center;
+    font-weight: bold;
+}
