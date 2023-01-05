@@ -1,0 +1,38 @@
+.CardContainer{
+    display: flex;
+    margin-bottom: 104px;
+    align-items: center;
+    align-items: center;
+ 
+}
+
+.CardContainer
+.CardContainer-Logo
+figure
+img{
+    width: 240px;
+}
+
+.CardContainer-info
+.CardContainer-Title
+{
+    text-align: center;
+}
+
+.CardContainer-Date
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.CardContainer-Date
+.Date_From{
+    margin-right: 20px;
+
+}
+
+.CardContainer-Info
+{
+    justify-content: center;
+}
