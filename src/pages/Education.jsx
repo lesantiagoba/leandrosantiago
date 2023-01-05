@@ -36,6 +36,17 @@ const Education = () => {
             ToDate = {EducationList[0].ToDate}
             description = {EducationList[0].description}
         />
+
+        <EducationCard 
+            ImgUrl = {EducationList[0].ImgUrl}
+            nombreInstitucion = {EducationList[0].nombreInstitucion}
+            TituloObtenido = {EducationList[0].TituloObtenido}
+            Honores = {EducationList[0].Honores}
+            FromDate = {EducationList[0].FromDate}
+            ToDate = {EducationList[0].ToDate}
+            description = {EducationList[0].description}
+        />
+      
         
        </div>
     )

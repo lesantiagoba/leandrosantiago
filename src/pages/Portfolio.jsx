@@ -1,10 +1,15 @@
 import React from "react";
+import PortfolioContainer from "../Component/PortfolioContainer";
+import './Portfolio.css';
+
 
 const Portfolio = () => {
     return(
-        <h1>
-            Portfolio
-        </h1>
+        <section className="Portfolio-Container">
+            <PortfolioContainer />
+            <PortfolioContainer />
+            <PortfolioContainer />
+        </section>
     );
 }
 

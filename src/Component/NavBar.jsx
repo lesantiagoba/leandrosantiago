@@ -1,6 +1,14 @@
 import React from "react";
+import { useState } from "react";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+
+//const [FormularioContacto, setFormularioContacto] = useState();
+
+const saludo = (nota) =>
+{
+    alert(nota);
+}
 
 const Navbar = () => {
     return(
@@ -24,7 +32,7 @@ const Navbar = () => {
                             <Link className="Links" to="/">Experience</Link>
                         </li>
                         <li>
-                            <Link className="Links" to="/">Contact</Link>
+                            <Link  className="Links" to="/">Contact</Link>
                         </li>
                     </ul>
                 </nav>
