@@ -14,6 +14,7 @@ const InfoCard = (Img, Title, DateFrom, DateTo, Info) => {
                     <h2>
                         Seguro Nacional de Salud SeNaSa
                     </h2>
+                    <h4>Desarrollador</h4>
                 </div>
                 <div className="CardContainer-Date">
                     <div className="Date_From">

@@ -8,7 +8,7 @@ const Skills = () => {
     const[ListSkills, setListSkills] = useState(Skill);
 
     useEffect(() =>{
-        console.log(ListSkills);
+        setListSkills(ListSkills);
     },[Skill])
 
     return(

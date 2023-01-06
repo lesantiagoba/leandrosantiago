@@ -8,8 +8,6 @@ const Experience = () => {
     return(
         <div className="experience-Container">
             <InfoCard />
-            <InfoCard />
-            <InfoCard />
         </div>
     )
 }
