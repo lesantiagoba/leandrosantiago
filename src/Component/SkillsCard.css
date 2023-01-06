@@ -1,4 +1,20 @@
-.SkillsCardContainer{
-    display: flex;
-    flex-direction: column;
+
+.SkillsContainer-Bar{
+    width: 100%;
+    background-color: #ddd; /* Grey background */
+    text-align: right; /* Right-align text */
+    color: white; /* White text color */
+    box-sizing: border-box;
+    font-weight: bolder;
+   
+}
+
+.Bar-Percent
+{
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 15px; /* Add bottom padding */
+    height: 100%;
+    width: 100%; 
+    box-sizing: border-box;
+  
 }

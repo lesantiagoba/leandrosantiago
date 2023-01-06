@@ -13,22 +13,33 @@ const BoardContainer = () => {
         <div>
             <Navbar />
             <div className="BoardContainer">
-                <div className="BoardContainerInfo">
-                    <Section name={"About me"} />
-                    <AboutMe
-                    nombre="Leandro Santiago Batista"
-                    descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempore placeat temporibus magnam aperiam inventore sit neque amet. Similique necessitatibus dolores nobis illo nihil sint. Eaque numquam quos atque eveniet!"
-                    />
-                    <Section name={"Education"} />
-                    <Education 
+                <div className="BoardContainerInfo" >
+                   
+                    <div id="AboutMe">
+                        <Section name={"About me"} id="AboutMe"/>
+                        <AboutMe
+                        nombre="Leandro Santiago Batista"
+                        descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempore placeat temporibus magnam aperiam inventore sit neque amet. Similique necessitatibus dolores nobis illo nihil sint. Eaque numquam quos atque eveniet!"
+                        />
+                    </div>
+                    <div id="Education">
+                        <Section name={"Education"} id="Education" />
+                        <Education />
+                    </div>
                     
-                    />
-                    <Section name={"Skills"} />
-                    <Skills/>
-                    <Section name={"Portfolio"} />
-                    <Portfolio/>
-                    <Section name={"Experience"} />
-                    <Experience/>
+                    <div id="Skills">
+                        <Section name={"Skills"} id="Skills"/>
+                        <Skills/>
+                    </div>
+                    <div id="Portfolio">
+                        <Section name={"Portfolio"} id="Portfolio"/>
+                        <Portfolio/>
+                    </div>
+                    <div id="Experience">
+                        <Section name={"Experience"}/>
+                        <Experience/>
+                    </div>
+                    
                 </div>
             </div>
 

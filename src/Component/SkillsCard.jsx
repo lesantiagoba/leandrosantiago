@@ -1,27 +1,32 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './EducationCard.css';
+import './SkillsCard.css';
 
-const SkilsCard = ({
+const SkillsCard = (
+   { 
     Technology,
     Percent, 
     color
-}) => {
+    }
+) => {
 
     return(
        <div className="SkillsCardContainer">
-            <div className="SkillsCardContainer-Technology">
-               <h2 style={{color: color}}>
-                    {Technology}
-              </h2> 
-            </div>
-            <div className="SkillCardContainer-Percent">
-               <h2 style={{color: color}}>
-                    {Percent}%
-               </h2> 
-            </div>
+           <div className="SkillsContainer-Title">
+               <h4>{Technology}</h4>
+           </div>
+           <div className="SkillsContainer-Bar" >
+               <div className="Bar-Percent" 
+               style={{
+                backgroundColor:`${color}`,
+                width: `${Percent}%`
+               }} >
+                  {Percent}%
+               </div>
+           </div>
        </div>
     )
 }
 
 
-export default SkilsCard;
+export default SkillsCard;

@@ -20,6 +20,29 @@ export const Skill = [
         
         id:1,
         Technology: "HTML",
-        Percent: 100
-    }
+        Percent: 100,
+        color: 'Green'
+    },
+    {
+        
+        id:2,
+        Technology: "CSS",
+        Percent: 100,
+        color: 'Red'
+    },
+    {
+        
+        id:3,
+        Technology: "JavaScript",
+        Percent: 85,
+        color: 'Orange'
+    },
+    {
+        
+        id:4,
+        Technology: "React",
+        Percent: 80,
+        color: 'Blue'
+    },
+
 ]

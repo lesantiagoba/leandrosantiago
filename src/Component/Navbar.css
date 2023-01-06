@@ -7,8 +7,11 @@
     font-family: 'Laila', sans-serif;
     color: white;
     font-weight: bold;
-    width: auto;
+    width: 100%;
     height: 99px;
+    position: fixed;
+    top: 0;
+    
 }
 
 .NavbarContainers-Name{

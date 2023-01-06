@@ -1,20 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Skill } from "../Collection/Data";
-import SkilsCard from "../Component/SkillsCard";
+import SkillsCard from "../Component/SkillsCard";
 import './Skill.css';
+
 const Skills = () => {
+
+    const[ListSkills, setListSkills] = useState(Skill);
+
+    useEffect(() =>{
+        console.log(ListSkills);
+    },[Skill])
+
     return(
        <div className="SkillsList">
-           <SkilsCard 
-                Technology = {Skill[0].Technology}
-                Percent = {Skill[0].Percent}
-                color = "green"
-            />
-             <SkilsCard 
-                Technology = {Skill[0].Technology}
-                Percent = {Skill[0].Percent}
-                color = "green"
-            />
+          {  !ListSkills ?
+             <div className="Loading">
+                <h2>Loading....</h2>
+             </div>
+             : ListSkills.map( x => {
+                return  <SkillsCard 
+                key={x.id}
+                Technology={x.Technology}
+                Percent={x.Percent}
+                color={x.color}
+                />
+            }
+            )}
+                
+            
+        
        </div>
     )
 }

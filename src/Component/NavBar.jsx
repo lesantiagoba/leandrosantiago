@@ -2,12 +2,20 @@ import React from "react";
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Experience from "../pages/Experience";
 
 //const [FormularioContacto, setFormularioContacto] = useState();
 
-const saludo = (nota) =>
+const Contact = () =>
 {
-    alert(nota);
+    let Name = prompt('Please enter your name');
+    let Email = prompt('Please write your email');
+    let message = prompt('Message');
+
+    if(Name != null && Email != null && message != null)
+    {
+        alert("The message was sending");
+    }
 }
 
 const Navbar = () => {
@@ -20,19 +28,27 @@ const Navbar = () => {
                 <nav>
                     <ul>
                         <li>
-                            <Link className="Links" to="/">Education</Link>
+                            <a  className="Links" href='#Education'>
+                                Education 
+                            </a>
                         </li>
                         <li>
-                            <Link className="Links" to="/">Skills</Link>
+                            <a  className="Links" href='#Skills'>
+                                Skills 
+                            </a>
                         </li>
                         <li>
-                            <Link className="Links" to="/">Portfolio</Link>
+                            <a  className="Links" href='#Portfolio'>
+                                Portfolio 
+                            </a>
                         </li>
                         <li>
-                            <Link className="Links" to="/">Experience</Link>
+                            <a  className="Links" href='#Experience'>
+                                Experience 
+                            </a>
                         </li>
                         <li>
-                            <Link  className="Links" to="/">Contact</Link>
+                            <Link onClick={() => Contact()}  className="Links" to="/">Contact</Link>
                         </li>
                     </ul>
                 </nav>

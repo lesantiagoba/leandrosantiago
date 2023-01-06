@@ -14,12 +14,12 @@ function App() {
     <BrowserRouter>
       <BoardContainer/>
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/:id" component={AboutMe} />
-        <Route path="/:id" component={Education} />
-        <Route path="/:id" component={Experience} />
-        <Route path="/:id" component={Portfolio} />
-        <Route path="/:id" component={Skills} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/:id" element={<AboutMe />} />
+        <Route path="/:id" element={<Education />} />
+        <Route path="/:id" element={<Experience />} />
+        <Route path="/:id" element={<Portfolio />} />
+        <Route path="/:id" element={<Skills />} />
       </Routes>
     </BrowserRouter>
   );
