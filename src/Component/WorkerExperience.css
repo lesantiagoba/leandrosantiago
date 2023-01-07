@@ -65,7 +65,7 @@ h3{
 .InfoContainer
 .InfoContainer-Dates
 {
-    width: 15%;
+    width: 20%;
     font-size: 12px;
     display: flex;
     justify-content: space-around;
@@ -103,6 +103,7 @@ h3
 }
 .InfoContainer-Skills{
     margin-bottom: 30px;
+    display: flex;
 }
 
 .InfoContainer-Skills
@@ -118,6 +119,7 @@ h3
     border-color: white;
     color: white;
     font-weight: bold;
+    margin-right: 10px;
 }
 
 .InfoContainer-Skills

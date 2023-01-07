@@ -363,22 +363,129 @@ export const ExperienceWork = [
     {
         id: 1,
         company: 'Seguro Nacional de Salud SeNaSa',
-        companyLogo: 'https://th.bing.com/th/id/R.a91929defa6839ea96968ea5a8220d23?rik=LnX8cTBxGTq%2bYg&pid=ImgRaw&r=0',
+        companyLogo: "https://media.licdn.com/dms/image/C4E0BAQFxmvDBjZD4Pg/company-logo_200_200/0/1646077842577?e=1681344000&v=beta&t=nLYLIH3PBOlRbhbbThoJTghdr8g2rrt7M5_iogjyJaE" ,
         Position: [
             {
                 id:1,
-                Position:'SoporteTecnicoSenior',
-                DateFrom:'01/01/2022',
-                DateTo:'01/01/2022',
+                Position:'Auxiliar de Archivo',
+                DateFrom:'01/06/2015',
+                DateTo:'01/07/2016',
+                Location: 'Santo Domingo, D.N.',
+                Type: 'Full-Time',
                 Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
                 Tecnologies: [
                     {
                         id: 1,
-                        Name: 'HTML'
+                        Name: 'MsOffice',
+                        color: "orange"
+                    },
+                ]
+
+            },
+            {
+                id:2,
+                Position:'Tecnico en compras y contrataciones publicas',
+                DateFrom:'01/07/2016',
+                DateTo:'01/01/2019',
+                Location: 'Santo Domingo, D.N.',
+                Type: 'Full-Time',
+                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Tecnologies: [
+                    {
+                        id: 1,
+                        Name: 'MsOffice',
+                        color: "orange"
+                    },
+                    {
+                        id: 2,
+                        Name: 'Windows',
+                        color: "Blue"
+                    },
+                    {
+                        id: 3,
+                        Name: 'AX',
+                        color: "Blue"
                     }
                 ]
+                
+            },
+            {
+                id:3,
+                Position:'Information Technology Support Engineer',
+                DateFrom:'01/08/2019',
+                DateTo:'01/12/2021',
+                Location: 'Santo Domingo, D.N.',
+                Type: 'Full-Time',
+                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Tecnologies: [
+                    {
+                        id: 1,
+                        Name: 'MsOffice',
+                        color: "orange"
+                    },
+                    {
+                        id: 2,
+                        Name: 'Windows',
+                        color: "Blue"
+                    },
+                    {
+                        id: 3,
+                        Name: 'AX',
+                        color: "Blue"
+                    },
+                    {
+                        id: 4,
+                        Name: 'WServer',
+                        color: "Blue"
+                    },
+                    {
+                        id: 5,
+                        Name: 'Network',
+                        color: "black"
+                    },
+                ]
+                
+            },
+            {
+                id:4,
+                Position:'Software Developer',
+                DateFrom:'01/05/2021',
+                DateTo:'',
+                Location: 'Santo Domingo, D.N.',
+                Type: 'Full-Time',
+                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Tecnologies: [
+                    {
+                        id: 1,
+                        Name: 'HTML',
+                        color: "Orange"
+                    },
+                    {
+                        id: 3,
+                        Name: 'CSS',
+                        color: "Blue"
+                    },
+                    {
+                        id: 4,
+                        Name: 'Javascript',
+                        color: "Orange"
+                    },
+                    {
+                        id: 5,
+                        Name: '.Net',
+                        color: "Purple"
+                    },
+                    {
+                        id: 6,
+                        Name: 'SQL',
+                        color: "Blue"
+                    },
+                ]
+                
             }
         ]
 
-    }
+    },
+    
+    
 ]
