@@ -1,5 +1,5 @@
 .NavbarContainer{
-    background-color: black;
+    background-color: black !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,7 +11,8 @@
     height: 99px;
     position: fixed;
     top: 0;
-    
+    left: 0; 
+    z-index: 1;
 }
 
 .NavbarContainers-Name{

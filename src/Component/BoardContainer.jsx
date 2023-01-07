@@ -7,7 +7,7 @@ import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 import Portfolio from "../pages/Portfolio";
 import Experience from "../pages/Experience";
-import CertificationCard from "./CertificacationCard";
+import Certification from "../pages/Certification";
 
 const BoardContainer = () => {
 
@@ -28,9 +28,9 @@ const BoardContainer = () => {
                         <Section name={"Education"}  />
                         <Education />
                     </div>
-                    <div id="Lliecence"  className="BoradConainer-Section">
+                    <div id="Certification"  className="BoradConainer-Section">
                         <Section name={"Licence & Certifications"}  />
-                        <CertificationCard />
+                        <Certification />
                     </div>
                     
                     <div id="Skills"  className="BoradConainer-Section">

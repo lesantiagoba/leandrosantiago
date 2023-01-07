@@ -15,9 +15,9 @@ const CertificationCard = ({
             <div className="Container-LeftRight">
                 <div className="Licence-Left">
                     <div className="Left-img">
-                        <a href="#">
+                        <a href={Url}>
                             <figure>
-                                <img src="https://media.licdn.com/dms/image/C4E0BAQEGpwGPMezwTw/company-logo_200_200/0/1519884816884?e=1681344000&v=beta&t=j1KW1xVwAV5f4RZTEqjJ7EBtCHuZrkl-wXbhfJ2MY5o" />
+                                <img src={imgUrl}/>
                             </figure>
                         </a>
                     </div>
@@ -25,22 +25,27 @@ const CertificationCard = ({
                 <div className="Licence-Right">
                         <div className="Right-Title">
                             <h2>
-                                ITIL Foundation Certificate in It Service Management
+                                {Title}
                             </h2>
                         </div>
                         <div className="Right-Company">
                             <h2>
-                                PeopleCert
+                                {Company}
                             </h2>
                         </div>
                         <div className="Right-Date">
-                            <p>Issued March 2021 </p>
+                            <p>{Date}</p>
                             <p className="Date-Separate"> * </p>
-                            <p>No Expiration Date</p>
+                            <p>
+                                {
+                                !EndDate ? 'No Expiration Date'
+                                : EndDate
+                                }
+                            </p>
                         </div>
                         <div className="Right-CredentialID">
                             <p>Credential ID </p> 
-                            <p className="CredentialID"> GR671249767LS</p>
+                            <p className="CredentialID"> {CredentialID}</p>
                         </div>
                     </div>
             </div>
