@@ -26,11 +26,23 @@ img
 .Right-Titulo
 {
     text-align: center;
+}  
+
+.Right-Titulo
+h2
+{
+    margin-bottom: 0;
 }   
 
 .Right-Honor
 {
     text-align: center;
+}
+
+.Right-Honor
+h4{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Right-Dates{
