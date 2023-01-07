@@ -22,7 +22,8 @@ const Education = () => {
         description = {item.description}
         />
       }
-       ) }
+       )
+        }
        </div>
     )
 }

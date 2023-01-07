@@ -7,35 +7,41 @@ import Education from "../pages/Education";
 import Skills from "../pages/Skills";
 import Portfolio from "../pages/Portfolio";
 import Experience from "../pages/Experience";
+import CertificationCard from "./CertificacationCard";
 
 const BoardContainer = () => {
+
     return(
         <div>
             <Navbar />
             <div className="BoardContainer">
                 <div className="BoardContainerInfo" >
                    
-                    <div id="AboutMe">
-                        <Section name={"About me"} id="AboutMe"/>
+                    <div id="AboutMe" className="BoradConainer-Section">
+                        <Section name={"About me"} />
                         <AboutMe
                         nombre="Leandro Santiago Batista"
-                        descripcion="Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempore placeat temporibus magnam aperiam inventore sit neque amet. Similique necessitatibus dolores nobis illo nihil sint. Eaque numquam quos atque eveniet!"
+                        descripcion="Experienced Information Technology Support Engineer with a demonstrated history of working in the government administration industry. Skilled in WinForms, Responsive Web Design, .NET Framework, JavaScript, and C#. Strong information technology professional graduated from Universidad Catolica Santo Domingo. "
                         />
                     </div>
-                    <div id="Education">
-                        <Section name={"Education"} id="Education" />
+                    <div id="Education"  className="BoradConainer-Section">
+                        <Section name={"Education"}  />
                         <Education />
                     </div>
+                    <div id="Lliecence"  className="BoradConainer-Section">
+                        <Section name={"Licence & Certifications"}  />
+                        <CertificationCard />
+                    </div>
                     
-                    <div id="Skills">
-                        <Section name={"Skills"} id="Skills"/>
+                    <div id="Skills"  className="BoradConainer-Section">
+                        <Section name={"Skills"} />
                         <Skills/>
                     </div>
-                    <div id="Portfolio">
-                        <Section name={"Portfolio"} id="Portfolio"/>
+                    <div id="Portfolio"  className="BoradConainer-Section">
+                        <Section name={"Portfolio"} />
                         <Portfolio/>
                     </div>
-                    <div id="Experience">
+                    <div id="Experience"  className="BoradConainer-Section">
                         <Section name={"Experience"}/>
                         <Experience/>
                     </div>

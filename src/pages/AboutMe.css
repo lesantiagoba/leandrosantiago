@@ -20,8 +20,40 @@ img
 
 .AboutMeContainer-Right
 {
-    margin-top: 115px;
+    padding: 20px;
+    margin-right: 20px;
     margin-left: 94px;
     font-weight: bold;
     text-align: justify;
+    font-size: 25px;
 }
+
+.AboutMeContainer-Social
+{
+    display: grid;
+
+}
+
+.Social-Container
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Social-Container
+a
+figure
+{
+    position: relative;
+    top: 0;
+    margin-left: 0;
+}
+
+.Social-Network
+img{
+    width: 50px;
+    height: 50px;
+  
+}
+

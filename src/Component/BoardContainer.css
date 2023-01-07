@@ -2,13 +2,27 @@
   width:1176px;
   height: auto;
   margin: 0 auto;
-  margin-top: 10% ;
-  background-color: #FFFFFF;
-  box-shadow: 1px 7px 7px 7px #888888;
+  margin-top: 10% ;  
   display: flex;
   flex-direction: column;
   align-items: center;
+
    
+}
+.BoradConainer-Section
+{
+  padding: 3%;
+  margin-bottom: 50px;
+  width:100%;
+  height: auto;
+  background-color: #FFFFFF;
+  box-shadow: 1px 7px 7px 7px #888888;
+  border-radius: 5px;
+}
+
+.BoradConainer-Section:hover
+{
+  box-shadow: 1px 7px 7px 7px #514a4a;
 }
 
 .BoardContainerInfo{

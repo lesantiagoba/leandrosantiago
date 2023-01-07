@@ -3,6 +3,7 @@
     display: flex;
     margin-bottom: 104px;
     align-items: center;
+    padding: 30px;
     
 }
 
@@ -38,6 +39,6 @@ img
 }
 
 .Right-Description{
-    text-align: center;
+    text-align: justify;
     font-weight: bold;
 }

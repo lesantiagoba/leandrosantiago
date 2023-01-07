@@ -49,6 +49,8 @@ const EducationCard = (
                 </div>
             </div>
         </div>
+        
+
             
     )
 }

@@ -22,7 +22,7 @@ const Navbar = () => {
     return(
         <div className="NavbarContainer">
             <div className="NavbarContainers-Name">
-                <Link className="Links" to="/">Leandro Santiago</Link>
+               <a className="Links" href="#">Leandro Santiago</a>
             </div>
             <div className="NavbarContainers-Links">
                 <nav>
