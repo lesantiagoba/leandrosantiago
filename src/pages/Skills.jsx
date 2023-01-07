@@ -1,34 +1,35 @@
 import React, { useEffect, useState } from "react";
 import { Skill } from "../Collection/Data";
 import SkillsCard from "../Component/SkillsCard";
+import SkillsCircle from "../Component/SkillsCircle";
 import './Skill.css';
 
 const Skills = () => {
 
-    const[ListSkills, setListSkills] = useState(Skill);
+    const[ListSkills, setListSkills] = useState([]);
 
     useEffect(() =>{
-        setListSkills(ListSkills);
+        setListSkills(Skill);
     },[Skill])
 
     return(
        <div className="SkillsList">
-          {  !ListSkills ?
+      { !ListSkills ?
              <div className="Loading">
                 <h2>Loading....</h2>
              </div>
              : ListSkills.map( x => {
-                return  <SkillsCard 
+                return  <SkillsCircle 
                 key={x.id}
                 Technology={x.Technology}
                 Percent={x.Percent}
                 color={x.color}
                 />
             }
-            )}
-                
-            
-        
+         )}
+
+         
+       
        </div>
     )
 }
