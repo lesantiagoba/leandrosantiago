@@ -1,14 +1,11 @@
 .Container
 {
     width: 400px;
-    height: 400px;
-    font-size: 20px;
     margin-bottom: 80px;
-    margin-right: 80px;
     text-align: justify;
-    
-    
-    
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .Container
@@ -17,9 +14,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
-    
+    align-items: center;   
+
+}
+
+.Container
+.Container-Cards
+.Cards-figure
+{
+    margin-bottom: 0px;
+}
+
+.Container
+.Container-Cards
+.Cards-figure
+figure
+{
+    margin-bottom: 0px;
 }
 
 .Container
@@ -29,4 +40,86 @@ img
 {
     width: 320px;
     height: 240px;
+    margin-bottom: 0px;
+}
+
+.Card-Title
+{
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+.Card-Title
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Cards-description
+p{
+    text-align: justify;
+}
+
+.Card-TecnologiesContainer{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.Card-TecnologiesContainer
+.Container-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: all ease-in 0.2s;
+}
+
+.Card-TecnologiesContainer
+.Container-buttons:hover{
+    transform: scale(1.1);
+    transition: all ease-in 0.2s;
+}
+
+.Card-TecnologiesContainer
+.Container-buttons
+h3{
+    font-size: 9px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.cards-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+    background-color: rgba(18, 7, 172, 0.74);
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.cards-link:hover{
+    background-color: rgb(196, 56, 37);
+
+}
+
+.cards-link
+a{
+    text-decoration:none;
+    color: white;   
+    font-weight: bolder; 
 }

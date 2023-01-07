@@ -1,13 +1,14 @@
 import React from "react";
-import EducationCard from "../Component/EducationCard";
 import './Experience.css';
-import InfoCard from "../Component/InfoCard";
+import WorkerExperience from "../Component/WorkerExperience";
 
-const Experience = () => {
+const Experience = (
+    
+) => {
 
     return(
         <div className="experience-Container">
-            <InfoCard />
+            <WorkerExperience />
         </div>
     )
 }

@@ -1,22 +1,71 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './PortfolioContainer.css';
 
-const PortfolioContainer = () => {
+const PortfolioContainer = (
+    {
+        Img,
+        Title,
+        Description,
+        Link,
+        Tecnologies
+    }
+) => {
+
+    const [tecnologiesList, setTecnologiesList] = useState();
+
+    useEffect(() => {
+        setTecnologiesList(Tecnologies)
+    },[Tecnologies])
+
     return(
         <div className="Container">
             <div className="Container-Cards">
                 <div className="Cards-figure">
                     <figure>
-                        <img src="https://www.kcpdynamics.com/wp-content/uploads/Microsoft-Dynamics-AX.png"/>
+                        <img src={Img}/>
                     </figure>
+                </div>
+                <div className="Card-Title">
+                    <h2>{Title}</h2>
                 </div>
                 <div className="Cards-description">
                     <p>
-                         quibusdam pariatur excepturi, necessitatibus similique officia est vel quam facere enim ratione.
+                        {Description}
                     </p>
                 </div>
+                {
+                     !tecnologiesList 
+                     ? <div 
+                     style={
+                        {
+                            backgroundColor:"red"
+                        }
+                     }
+                     className="Card-TecnologiesContainer" >
+                        <h2>Loading...</h2>
+                     </div>
+                        
+                     : <div
+                        className="Card-TecnologiesContainer">
+                            {
+                                tecnologiesList.map(item => {
+                                    return(
+                                        <div key={item.id} className="TecnologiesContainer">
+                                                <div  
+                                                style={{
+                                                    background:`${item.Color}`
+                                                    }}
+                                                    className="Container-buttons">
+                                                    <h3>{item.Name}</h3>
+                                                </div>
+                                                </div>
+                                    )
+                                })
+                            }
+                        </div>
+                }
                 <div className="cards-link">
-                    <a href="#">Access Link</a>
+                    <a href={Link}>Click for access</a>
                 </div>
             </div>
         </div>
@@ -24,3 +73,5 @@ const PortfolioContainer = () => {
 }
 
 export default PortfolioContainer;
+
+{/** */}

@@ -286,3 +286,99 @@ export const Certifications = [
         Url:'https://www.udemy.com/certificate/UC-EQ23DVIY/',
     },
 ]
+
+
+export const Projects = [
+    {
+        id: 1,
+        Img: 'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Title: 'Mobile App',
+        Description: 'A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch. Mobile applications often stand in contrast to desktop applications which are designed to run on desktop computers, and web applications which run in mobile web',
+        Link:'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Tecnologies : [
+            {
+                id:1,
+                Name: 'HTML',
+                Color: 'Orange',
+            },
+            {
+                id:2,
+                Name: 'CSS',
+                Color: 'Blue',
+            },
+            {
+                id:3,
+                Name: 'Javascript',
+                Color: 'Brown',
+            },
+            {
+                id:4,
+                Name: 'React',
+                Color: 'Blue',
+            },
+            {
+                id:5,
+                Name: '.Net',
+                Color: 'Purple',
+            },
+        ]
+    },
+    {
+        id: 2,
+        Img: 'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Title: 'Aplicacion',
+        Description: 'A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch. Mobile applications often stand in contrast to desktop applications which are designed to run on desktop computers, and web applications which run in mobile web',
+        Link:'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Tecnologies : [
+            {
+                id:1,
+                Name: 'HTML',
+                Color: 'Orange',
+            },
+            {
+                id:2,
+                Name: 'CSS',
+                Color: 'Blue',
+            },
+            {
+                id:3,
+                Name: 'Javascript',
+                Color: 'Brown',
+            },
+            {
+                id:4,
+                Name: 'React',
+                Color: 'Blue',
+            },
+            {
+                id:5,
+                Name: '.Net',
+                Color: 'Purple',
+            },
+        ]
+    }
+]
+
+export const ExperienceWork = [
+    {
+        id: 1,
+        company: 'Seguro Nacional de Salud SeNaSa',
+        companyLogo: 'https://th.bing.com/th/id/R.a91929defa6839ea96968ea5a8220d23?rik=LnX8cTBxGTq%2bYg&pid=ImgRaw&r=0',
+        Position: [
+            {
+                id:1,
+                Position:'SoporteTecnicoSenior',
+                DateFrom:'01/01/2022',
+                DateTo:'01/01/2022',
+                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Tecnologies: [
+                    {
+                        id: 1,
+                        Name: 'HTML'
+                    }
+                ]
+            }
+        ]
+
+    }
+]

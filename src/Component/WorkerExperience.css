@@ -1,0 +1,126 @@
+.WorkerExperience
+{
+    display: grid;
+}
+
+.WorkerExperience-Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.WorkerExperience-Company{
+    display: flex;
+}
+
+.WorkerExperience-Company
+.WorkerExperience-CompanyLogo
+figure
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title{
+    font-size: 15px;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+h2{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+{
+    margin-bottom: 0px;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+h3{
+    margin-top: 0px;
+    font-size: 15px;
+    color:darkgray;
+    margin-bottom: 0;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Dates
+{
+    width: 15%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    padding-top: 0;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Dates
+h3
+{
+   margin-top: 3px;
+   margin-bottom: 0px;
+}
+
+.InfoContailer-Location{
+    margin-top:0px;
+    padding-top: 0;
+}
+
+.InfoContailer-Location
+h3{
+    margin-top:0px;
+}
+
+.InfoContailer-Activities
+h3
+{
+    text-align: justify;
+}
+.InfoContainer-Skills{
+    margin-bottom: 30px;
+}
+
+.InfoContainer-Skills
+.skills-button{
+    background-color: Orange;
+    height: 30px;
+    width: 8%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+}
+
+.InfoContainer-Skills
+.skills-button:hover{
+    background-color: rgb(196, 56, 37);
+}
