@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./NavBar";
 import './BoardContainer.css';
 import Section from "./Section";
@@ -8,15 +8,27 @@ import Skills from "../pages/Skills";
 import Portfolio from "../pages/Portfolio";
 import Experience from "../pages/Experience";
 import Certification from "../pages/Certification";
+import ContactForm from "./ContactFom";
 
 const BoardContainer = () => {
+    const [ContactCode, setContactCode] = useState();
 
     return(
         <div>
-            <Navbar />
+            <Navbar 
+            ContactCode={setContactCode}
+            />
+            {
+                 ContactCode === 0
+                 ? <div id="Contact">
+                        <ContactForm 
+                        save={setContactCode}
+                    />
+                 </div>
+                 : ''
+            }
             <div className="BoardContainer">
-                <div className="BoardContainerInfo" >
-                   
+                <div className="BoardContainerInfo" > 
                     <div id="AboutMe" className="BoradConainer-Section">
                         <Section name={"About me"} />
                         <AboutMe

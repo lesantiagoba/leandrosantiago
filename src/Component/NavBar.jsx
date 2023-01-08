@@ -6,19 +6,13 @@ import Experience from "../pages/Experience";
 
 //const [FormularioContacto, setFormularioContacto] = useState();
 
-const Contact = () =>
-{
-    let Name = prompt('Please enter your name');
-    let Email = prompt('Please write your email');
-    let message = prompt('Message');
-
-    if(Name != null && Email != null && message != null)
+const Navbar = (
     {
-        alert("The message was sending");
+         ContactCode = (value) => {
+            return value
+        }
     }
-}
-
-const Navbar = () => {
+) => {
     return(
         <div className="NavbarContainer">
             <div className="NavbarContainers-Name">
@@ -48,7 +42,7 @@ const Navbar = () => {
                             </a>
                         </li>
                         <li>
-                            <Link onClick={() => Contact()}  className="Links" to="/">Contact</Link>
+                            <a onClick={() => ContactCode(0)}  className="Links" href="#Contact">Contact</a>
                         </li>
                     </ul>
                 </nav>

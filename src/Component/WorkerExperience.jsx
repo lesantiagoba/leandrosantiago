@@ -88,6 +88,9 @@ const WorkerExperience = (
                                                    })
                                                 }   
                                             </div>
+                                        <div className="LicenceContainer-Division">
+                                            <hr />
+                                        </div>
                                         </div>
                                     </li>
                                 )
