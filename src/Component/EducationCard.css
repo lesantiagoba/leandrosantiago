@@ -54,3 +54,63 @@ h4{
     text-align: justify;
     font-weight: bold;
 }
+
+@media only screen and (max-device-width: 480px) {
+    .EducationContainerCard
+    {
+        display: grid;
+        margin-bottom: 104px;
+        align-items: center;
+        padding: 0;
+        
+    }
+
+    .EducationContainer-Left
+    {
+        text-align: center;
+        margin-right: 0 ;
+    }
+
+
+    .EducationContainer-Left
+    .Left-Img
+    img
+    {
+        width: 259px;
+        height: 264px;
+    }
+
+
+    .Right-Titulo
+    {
+        text-align: center;
+    }  
+
+    .Right-Titulo
+    h2
+    {
+        margin-bottom: 0;
+    }   
+
+    .Right-Honor
+    {
+        text-align: center;
+    }
+
+    .Right-Honor
+    h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .Right-Dates{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Right-Description{
+        text-align: justify;
+        font-weight: bold;
+    }
+
+}

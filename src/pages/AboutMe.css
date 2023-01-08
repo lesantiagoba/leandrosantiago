@@ -58,3 +58,70 @@ img{
   
 }
 
+
+
+@media only screen and (max-device-width: 480px) {
+   
+    .AboutMeContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Left_Image
+img
+{
+    width: 279px;
+    height:263px;
+    border-radius: 360px;
+}
+
+.Left_Name{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.AboutMeContainer-Right
+{
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0;
+    font-weight: bold;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.AboutMeContainer-Social
+{
+    display: grid;
+
+}
+
+.Social-Container
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Social-Container
+a
+figure
+{
+    position: relative;
+    top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Social-Network
+img{
+    width: 50px;
+    height: 50px;
+  
+}
+
+}

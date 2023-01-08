@@ -18,15 +18,6 @@ const BoardContainer = () => {
             <Navbar 
             ContactCode={setContactCode}
             />
-            {
-                 ContactCode === 0
-                 ? <div id="Contact">
-                        <ContactForm 
-                        save={setContactCode}
-                    />
-                 </div>
-                 : ''
-            }
             <div className="BoardContainer">
                 <div className="BoardContainerInfo" > 
                     <div id="AboutMe" className="BoradConainer-Section">
@@ -57,6 +48,15 @@ const BoardContainer = () => {
                         <Section name={"Experience"}/>
                         <Experience/>
                     </div>
+                    {
+                        ContactCode === 0
+                        ? <div id="Contact">
+                            <ContactForm 
+                            save={setContactCode}
+                        />
+                        </div>
+                        : ''
+                    }
                     
                 </div>
             </div>

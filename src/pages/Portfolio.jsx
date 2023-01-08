@@ -12,7 +12,8 @@ const Portfolio = () => {
 
     return(
         <section className="Portfolio-Container">
-            {
+            <div className="ContainerData">
+                {
                 !projectList
                 ? 'Loading...'
                 :projectList.map(item => {
@@ -29,7 +30,8 @@ const Portfolio = () => {
                         )
                 }) 
             }
-           
+
+            </div>
         </section>
     );
 }

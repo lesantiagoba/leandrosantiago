@@ -16,7 +16,7 @@ const Navbar = (
     return(
         <div className="NavbarContainer">
             <div className="NavbarContainers-Name">
-               <a className="Links" href="#">Leandro Santiago</a>
+            <a className="Links" href="#">Leandro Santiago</a>
             </div>
             <div className="NavbarContainers-Links">
                 <nav>

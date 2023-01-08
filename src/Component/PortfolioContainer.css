@@ -123,3 +123,16 @@ a{
     color: white;   
     font-weight: bolder; 
 }
+
+
+@media only screen and (max-device-width: 480px) {
+  
+
+    .Cards-description
+    p{
+        text-align: justify;
+        padding: 20px;
+    }
+
+
+}

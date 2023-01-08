@@ -53,3 +53,67 @@ li{
     color:blanchedalmond;
     
 }
+
+@media only screen and (max-device-width: 480px) {
+    .NavbarContainer{
+        background-color: black !important;
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 25px;
+        font-family: 'Laila', sans-serif;
+        color: white;
+        font-weight: bold;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0; 
+        z-index: 1;
+    }
+    
+    .NavbarContainers-Name{
+        margin-left: 76px;
+
+       
+    }
+    
+    .NavbarContainers-Links{
+        margin-right: 334px;
+    }
+    
+    .NavbarContainers-Links
+    nav
+    ul{
+        display: grid;
+        list-style: none;
+    }
+    
+    .NavbarContainers-Links
+    nav
+    ul
+    li{
+        display: flex;
+        list-style: none;
+        margin-left: 76px;
+        
+    }
+    
+    .Links{
+        color: white;
+        text-decoration: none;
+    }
+
+    .NavbarContainers-Name
+    a{
+        color: black;
+    }
+    
+    
+    .Links:hover{
+        
+        color:blanchedalmond;
+        
+    }
+    
+ }

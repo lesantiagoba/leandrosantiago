@@ -133,3 +133,154 @@ h3
 }
 
 
+@media only screen and (max-device-width: 480px) {
+
+
+.WorkerExperience-Company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.WorkerExperience-Company
+.WorkerExperience-CompanyLogo
+figure
+img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0;
+}
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+{
+    text-align: center;
+    
+}
+
+li{
+    list-style: none;
+}
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title{
+    font-size: 15px;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+h2{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+{
+    margin-bottom: 0px;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Title
+h3{
+    margin-top: 0px;
+    font-size: 15px;
+    color:darkgray;
+    margin-bottom: 0;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Dates
+{
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    padding-top: 0;
+    align-items: center;
+    margin-left: 0;
+}
+
+.Worker-Division
+.Worker-Division--List
+.List-Info
+.InfoContainer
+.InfoContainer-Dates
+h3
+{
+   margin-top: 3px;
+   margin-bottom: 3px;
+}
+
+.InfoContailer-Location{
+    margin-top:0px;
+    padding-top: 0;
+}
+
+.InfoContailer-Location
+h3{
+    margin-top:0px;
+}
+
+.InfoContailer-Activities
+h3
+{
+   
+    text-align: justify;
+    font-size: 12px;
+    padding: 5%;
+}
+.InfoContainer-Skills{
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.InfoContainer-Skills
+.skills-button{
+    background-color: Orange;
+    height: 30px;
+    width: 25%;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 360px;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.skills-button{
+    transition: all ease-in 0.2s;
+}
+
+.InfoContainer-Skills
+.skills-button:hover{
+    transform: scale(1,1.1);
+    transition: all ease-in 0.2s;
+}
+
+
+
+}
+

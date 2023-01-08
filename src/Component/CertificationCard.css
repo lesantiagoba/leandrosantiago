@@ -105,3 +105,122 @@ hr
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-device-width: 480px) {
+   
+    .LicenceContainer{
+        transform: scale(1);
+        transition: all ease-in 0.2s;
+        margin-bottom: 5px;
+        display: grid;
+    }
+    
+    
+    .LicenceContainer:hover{
+        transform: scale(1.1);
+        transition: all ease-in 0.2s;
+    }
+    
+    .Container-LeftRight
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .Licence-Left
+    .Left-img
+    a
+    figure
+    img
+    {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .Licence-Right{
+        padding-left: 0;
+    }
+    
+    .Licence-Right
+    .Right-Title
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .Licence-Right
+    .Right-Title
+    h2
+    {
+        margin-bottom: 0;
+    
+    }
+    
+    .Licence-Right
+    .Right-Company
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .Licence-Right
+    .Right-Company
+    h2
+    {
+        margin: 0;
+    }
+    
+    .Right-Date{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+    
+    .Right-Date
+    p
+    {
+       margin-bottom: 0;
+       margin-right: 10px;
+    }
+
+    .Right-Date
+    .Date-Separate
+    {
+        font-size: 20px;
+    }
+    
+    .Right-CredentialID
+    {
+        display: grid;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .Right-CredentialID
+    p
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    
+    .Right-CredentialID
+    .CredentialID
+    {
+        margin-left: 5px;
+    }
+    
+    .LicenceContainer-Division
+    hr
+    {
+        
+        width: 100px;
+        height: 10px;
+        background-color: rgba(26, 22, 22, 0.514);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+}

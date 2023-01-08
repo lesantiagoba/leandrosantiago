@@ -100,3 +100,116 @@ button:hover
 {
   background-color: red!important;
 }
+
+
+@media only screen and (max-device-width: 480px) {
+
+  
+.ContactFormContainer{
+  width:100%;
+  margin-left: 12px;
+  margin-top:0 ;  
+  display: flex;
+  flex-direction: column;
+  align-items: none;
+
+ 
+}
+
+.ContactForm-Info{
+  display: flex;
+  margin: 0 auto;
+  flex-direction:column;
+  width:90%;
+  padding: 3%;
+  margin-bottom: 50px;
+  height: auto;
+  background-color: #FFFFFF;
+  box-shadow: 1px 7px 7px 7px #888888;
+  border-radius: 5px;
+  
+  
+}
+.ContactForm-Info:hover
+{
+box-shadow: 1px 7px 7px 7px #514a4a;
+}
+
+.ContactForm-Info
+form
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactForm-Info
+form
+.fields
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ContactForm-Info
+form
+.fields
+label
+{
+ font-size: 20px;
+ font-weight: bold;
+}
+
+.ContactForm-Info
+form
+.fields
+input
+{
+ width: 100%;
+ height: 30px;
+ margin-bottom: 30px;
+ box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.ContactForm-Info
+form
+.Message
+textarea
+{
+height: 320px;
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+
+.Submit
+button
+{
+width: 100px;
+height: 50px;
+border: white;
+background-color: purple;
+color: white;
+font-size: 20px;
+font-weight: bold;
+margin-left: 10px;
+}
+
+.Submit
+button:hover
+{
+background-color: green;
+}
+
+.ButonCancel
+{
+background-color: rgb(39, 13, 13)!important;
+}
+
+.ButonCancel:hover
+{
+background-color: red!important;
+}
+
+
+}

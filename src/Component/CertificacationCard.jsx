@@ -30,7 +30,7 @@ const CertificationCard = ({
                         </div>
                         <div className="Right-Company">
                             <h2>
-                                {Company}
+                               ({Company})
                             </h2>
                         </div>
                         <div className="Right-Date">

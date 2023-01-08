@@ -1,8 +1,38 @@
-.Portfolio-Container
+
+
+
+.ContainerData
 {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
     justify-content: space-around;
+
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    .Portfolio-Container
+    {
+        position: relative;
+        width: 400px;
+        display: flex;
+        overflow: auto;
+        
+    }
+   
+    .ContainerData
+    {
+       
+        min-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 50px;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    
+
 
 }
