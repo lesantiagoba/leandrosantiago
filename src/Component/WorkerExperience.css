@@ -122,7 +122,14 @@ h3
     margin-right: 10px;
 }
 
+.skills-button{
+    transition: all ease-in 0.2s;
+}
+
 .InfoContainer-Skills
 .skills-button:hover{
-    background-color: rgb(196, 56, 37);
+    transform: scale(1,1.1);
+    transition: all ease-in 0.2s;
 }
+
+
