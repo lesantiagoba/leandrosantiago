@@ -14,10 +14,13 @@ const BoardContainer = () => {
     const [ContactCode, setContactCode] = useState();
 
     return(
-        <div>
+        <div className="grid-container">
+            <div className="grid-item1--navbar grid-item">
             <Navbar 
-            ContactCode={setContactCode}
+                ContactCode={setContactCode}
             />
+            </div>
+            <div className="grid-item2--container grid-item">
             <div className="BoardContainer">
                 <div className="BoardContainerInfo" > 
                     <div id="AboutMe" className="BoradConainer-Section">
@@ -60,7 +63,7 @@ const BoardContainer = () => {
                     
                 </div>
             </div>
-
+            </div>
         </div>
     )
 }

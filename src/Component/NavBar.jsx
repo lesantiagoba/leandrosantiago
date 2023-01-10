@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Experience from "../pages/Experience";
-
+import menuImage from "../Common/img/Profile.png";
 //const [FormularioContacto, setFormularioContacto] = useState();
 
 const Navbar = (
@@ -13,9 +13,19 @@ const Navbar = (
         }
     }
 ) => {
+
+    const [navBarshow, setNavBarShow] = useState(100);
+
+    const navClicked = () => {
+       alert("Hola mundo");
+    }
+
     return(
-        <div className="NavbarContainer">
+            <div className="NavbarContainer">
             <div className="NavbarContainers-Name">
+            <div onClick={() => navClicked()} className="buton">
+                <img src={menuImage} ></img>
+            </div> 
             <a className="Links" href="#">Leandro Santiago</a>
             </div>
             <div className="NavbarContainers-Links">
@@ -48,6 +58,7 @@ const Navbar = (
                 </nav>
             </div>
         </div>
+        
     )
 }
 

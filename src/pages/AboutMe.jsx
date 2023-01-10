@@ -16,7 +16,7 @@ const AboutMe = ({
                     <img alt="" src ={Profile}/>
                 </div>
                 <div className="Left_Name">
-                    <h2>{nombre}</h2>
+                   <h2>{nombre}</h2>
                 </div>
                 <div className="AboutMeContainer-Social">
                     <div className="Social-Container">

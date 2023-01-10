@@ -9,7 +9,7 @@ h3:hover{
     color:coral;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 500px) {
     .CertificatioContainer-More{
         display: grid;
         justify-content: center;
