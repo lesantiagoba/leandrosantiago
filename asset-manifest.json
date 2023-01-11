@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.b0cf0c51.css",
+    "main.js": "/react-gh-pages/static/js/main.66111b42.js",
+    "static/media/Unijobs.png": "/react-gh-pages/static/media/Unijobs.1a52a92b100754b092d7.png",
+    "static/media/App.png": "/react-gh-pages/static/media/App.d263fccd792902a5cecb.png",
+    "static/media/PokeEPI.png": "/react-gh-pages/static/media/PokeEPI.652ae2b74a6fce1f3955.png",
+    "static/media/Profile.jpg": "/react-gh-pages/static/media/Profile.a5de29b1966778cc159f.jpg",
+    "static/media/github-svgrepo-com.svg": "/react-gh-pages/static/media/github-svgrepo-com.5050e0274db8aec36a335f97f88d95a2.svg",
+    "static/media/twitter-svgrepo-com.svg": "/react-gh-pages/static/media/twitter-svgrepo-com.21e8fe4442b0019b5186480451a06f6f.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "static/media/linkedin-1-svgrepo-com.svg": "/react-gh-pages/static/media/linkedin-1-svgrepo-com.7fa2b4f3f44e3b8759958b41f0f37d82.svg",
+    "main.b0cf0c51.css.map": "/react-gh-pages/static/css/main.b0cf0c51.css.map",
+    "main.66111b42.js.map": "/react-gh-pages/static/js/main.66111b42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0cf0c51.css",
+    "static/js/main.66111b42.js"
+  ]
+}
