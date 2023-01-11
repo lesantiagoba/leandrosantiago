@@ -66,13 +66,19 @@ const  NavBar = (
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box style={{ background: 'black' }}  onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Divider />
-      <List>
+      <List >
         {navItems.map((item) => (
           <ListItem key={item.id} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item.name} />
+                {
+                  item.id == '5'
+                  ? <a onClick={() => ContactCode(0)}  className="Links" href="#Contact">{item.name}</a>
+                  : <a  className="Links" href={item.Path}>
+                  {item.name}
+                  </a>
+                }
             </ListItemButton>
           </ListItem>
         ))}

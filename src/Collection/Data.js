@@ -14,9 +14,9 @@ export const EducationList = [
         nombreInstitucion: "Universidad Catolica de Santo Domingo",
         TituloObtenido: "Ingeniero en sistemas computacionales",
         Honores: "Magna Cum Laude",
-        FromDate: "01/01/2014",
-        ToDate: "01/01/2022",
-        description:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis maxime error ratione! Nobis dicta nostrum, porro, eum reiciendis ut asperiores, ducimus voluptates cum expedita quaerat doloremque aliquam laborum ad."
+        FromDate: "01/06/2015",
+        ToDate: "01/12/2020",
+        description:"Ingeniero en sistemas computacionales con honores Magna Cum Laude en la Universidad Catolica de Santo Domingo"
 
     },
 ]

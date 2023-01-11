@@ -36,10 +36,10 @@ const EducationCard = (
                 }
                 <div className="Right-Dates">
                     <div className="DateFrom">
-                        <h4>From Date:{FromDate}</h4>
+                        <h4>{FromDate}</h4>
                     </div>
                     <div className="DateTo">
-                        <h4>To Date:{ToDate}</h4>
+                        <h4>{ToDate}</h4>
                     </div>
                 </div>
                 <div className="Right-Description">
@@ -49,8 +49,6 @@ const EducationCard = (
                 </div>
             </div>
         </div>
-        
-
             
     )
 }

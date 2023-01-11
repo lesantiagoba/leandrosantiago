@@ -20,17 +20,17 @@ const AboutMe = ({
                 </div>
                 <div className="AboutMeContainer-Social">
                     <div className="Social-Container">
-                        <a href="https://www.github.com">
+                        <a href="https://www.github.com/lesantiagoba">
                             <figure  className="Social-Network">
                                 <img alt="" src={github} />
                             </figure>
                         </a>
-                    <a href="https://www.twitter.com">
+                    <a href="https://www.twitter.com/lesantiagoba">
                             <figure className="Social-Network">
                                 <img alt="" src={twitter} />
                             </figure>
                     </a>
-                    <a href="https://www.linkedin.com">
+                    <a href="https://www.linkedin.com/lesantiagoba">
                             <figure className="Social-Network">
                                 <img alt="" src={linkedin} />
                             </figure>
