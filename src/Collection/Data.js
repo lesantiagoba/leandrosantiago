@@ -1,3 +1,9 @@
+import AppIMG from '../Common/img/Portfolio/App.png';
+import UnijobsIMG from '../Common/img/Portfolio/Unijobs.png';
+import PokeApiIMG from '../Common/img/Portfolio/PokeEPI.png';
+
+
+
 export const EducationList = [
     {
         
@@ -291,19 +297,19 @@ export const Certifications = [
 export const Projects = [
     {
         id: 1,
-        Img: 'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
-        Title: 'Mobile App',
-        Description: 'A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch. Mobile applications often stand in contrast to desktop applications which are designed to run on desktop computers, and web applications which run in mobile web',
-        Link:'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Img: AppIMG,
+        Title: 'App SeNaSa',
+        Description: 'A renew mobile App for the Seguro Nacional de Salud (SeNaSa) clients; the app was build using react native and .net core 5 for the backend',
+        Link:'https://play.google.com/store/apps/details?id=com.arssenasa.mobile&gl=US',
         Tecnologies : [
             {
                 id:1,
-                Name: 'HTML',
-                Color: 'Orange',
+                Name: 'React',
+                Color: 'Purple',
             },
             {
                 id:2,
-                Name: 'CSS',
+                Name: 'MUI',
                 Color: 'Blue',
             },
             {
@@ -313,27 +319,66 @@ export const Projects = [
             },
             {
                 id:4,
-                Name: 'React',
-                Color: 'Blue',
+                Name: '.Net',
+                Color: 'Purple',
             },
             {
                 id:5,
-                Name: '.Net',
-                Color: 'Purple',
+                Name: 'Android',
+                Color: 'Green',
+            },
+            {
+                id:6,
+                Name: 'IOS',
+                Color: 'DarkGray',
             },
         ]
     },
     {
         id: 2,
-        Img: 'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
-        Title: 'Aplicacion',
-        Description: 'A mobile application or app is a computer program or software application designed to run on a mobile device such as a phone, tablet, or watch. Mobile applications often stand in contrast to desktop applications which are designed to run on desktop computers, and web applications which run in mobile web',
-        Link:'https://assets-global.website-files.com/5e9a09610b7dce71f87f7f17/5f1748db8e0964091259d1fd_blue.jpg',
+        Img: UnijobsIMG,
+        Title: 'Unijobs',
+        Description: 'Webpage for find jobs. The webpage was created as a final career project for the university. For the project was used html, css and javascript for the front end with boostrap and .net core 3.1 for the backend.',
+        Link:'https://github.com/lesantiagoba/UniJobs-1',
         Tecnologies : [
             {
                 id:1,
                 Name: 'HTML',
-                Color: 'Orange',
+                Color: 'Purple',
+            },
+            {
+                id:2,
+                Name: 'CSS',
+                Color: 'Blue',
+            },
+            {
+                id:3,
+                Name: 'Javascript',
+                Color: 'Brown',
+            },
+            {
+                id:4,
+                Name: 'C#',
+                Color: 'Purple',
+            },
+            {
+                id:4,
+                Name: 'MVC',
+                Color: 'Purple',
+            },
+        ]
+    },
+    {
+        id: 3,
+        Img: PokeApiIMG,
+        Title: 'PokeAPI',
+        Description: 'The webpage consume from a pokeapi for get all the pokemon aviable in the database. The project was writing using the library react and html, css',
+        Link:'https://github.com/lesantiagoba/Pokedex',
+        Tecnologies : [
+            {
+                id:1,
+                Name: 'HTML',
+                Color: 'Purple',
             },
             {
                 id:2,
@@ -348,11 +393,6 @@ export const Projects = [
             {
                 id:4,
                 Name: 'React',
-                Color: 'Blue',
-            },
-            {
-                id:5,
-                Name: '.Net',
                 Color: 'Purple',
             },
         ]

@@ -22,7 +22,7 @@ const PortfolioContainer = (
             <div className="Container-Cards">
                 <div className="Cards-figure">
                     <figure>
-                        <img src={Img}/>
+                        <img alt={Title} src={Img}/>
                     </figure>
                 </div>
                 <div className="Card-Title">
