@@ -57,7 +57,27 @@ export const Skill = [
         Percent: 80,
         color: 'Purple'
     },
-    
+    {
+        
+        id:6,
+        Technology: "X++",
+        Percent: 90,
+        color: 'Blue'
+    },
+    {
+        
+        id:7,
+        Technology: "Dynamics",
+        Percent: 80,
+        color: 'Blue'
+    },
+    {
+        
+        id:8,
+        Technology: "SQL",
+        Percent: 80,
+        color: 'Blue'
+    },
 
 ]
 
