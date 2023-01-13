@@ -6,12 +6,13 @@ import { ExperienceWork } from "../Collection/Data";
 const Experience = () => {
 
     const[ExperienceList, setExperienceList] = useState(ExperienceWork)
-
+ 
     useEffect(() => {
         console.log(ExperienceWork)
         setExperienceList(ExperienceWork);
+       
     }, [ExperienceWork])
-
+    
     return(
         <div className="experience-Container">
             {

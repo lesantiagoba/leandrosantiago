@@ -15,9 +15,7 @@
     .Portfolio-Container
     {
         position: relative;
-        width: 400px;
         display: flex;
-        overflow: auto;
         
     }
    
@@ -26,7 +24,7 @@
        
         min-width: 100%;
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         margin-bottom: 50px;
         justify-content: space-around;
         align-items: center;

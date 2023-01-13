@@ -46,7 +46,7 @@ export const Skill = [
     {
         
         id:4,
-        Technology: "React",
+        Technology: "ReactJs",
         Percent: 80,
         color: 'Blue'
     },
@@ -76,6 +76,13 @@ export const Skill = [
         id:8,
         Technology: "SQL",
         Percent: 80,
+        color: 'Blue'
+    },
+    {
+        
+        id:9,
+        Technology: "React Native",
+        Percent: 75,
         color: 'Blue'
     },
 
@@ -428,11 +435,11 @@ export const ExperienceWork = [
             {
                 id:1,
                 Position:'Auxiliar de Archivo',
-                DateFrom:'01/06/2015',
-                DateTo:'01/07/2016',
+                DateFrom:'2015',
+                DateTo:'2016',
                 Location: 'Santo Domingo, D.N.',
                 Type: 'Full-Time',
-                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Description: 'Scan and index clients documents',
                 Tecnologies: [
                     {
                         id: 1,
@@ -445,11 +452,11 @@ export const ExperienceWork = [
             {
                 id:2,
                 Position:'Tecnico en compras y contrataciones publicas',
-                DateFrom:'01/07/2016',
-                DateTo:'01/01/2019',
+                DateFrom:'2016',
+                DateTo:'2019',
                 Location: 'Santo Domingo, D.N.',
                 Type: 'Full-Time',
-                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Description: 'Complete buy process for the organization following the law  340-06 ',
                 Tecnologies: [
                     {
                         id: 1,
@@ -472,11 +479,11 @@ export const ExperienceWork = [
             {
                 id:3,
                 Position:'Information Technology Support Engineer',
-                DateFrom:'01/08/2019',
-                DateTo:'01/12/2021',
+                DateFrom:'2019',
+                DateTo:'2021',
                 Location: 'Santo Domingo, D.N.',
                 Type: 'Full-Time',
-                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Description: 'Bring Technical Support for the client in the organization',
                 Tecnologies: [
                     {
                         id: 1,
@@ -509,11 +516,11 @@ export const ExperienceWork = [
             {
                 id:4,
                 Position:'Software Developer',
-                DateFrom:'01/05/2021',
+                DateFrom:'2021',
                 DateTo:'',
                 Location: 'Santo Domingo, D.N.',
                 Type: 'Full-Time',
-                Description: 'El Seguro Nacional de Salud (SeNaSa) surge con la promulgación de la ley 87-01, que crea el Sistema Dominicano de Seguridad Social. En esta Ley se establece que SeNaSa es la institución pública autónoma y descentralizada responsable de la administración de riesgos de salud de los afiliados subsidiados, contributivos y contributivo-subsidiados del sector público y de los contributivos del sector privado que la escojan voluntariamente.',
+                Description: 'I have created solutions for the business in the ERP Microsoft Dynamics. In the same way I worked with the web services and mobile applications.',
                 Tecnologies: [
                     {
                         id: 1,

@@ -12,9 +12,13 @@ const WorkerExperience = (
     const [PositionList, setPositionList] = useState([]);
 
     useEffect(() => {
-        console.log(Position)
         setPositionList(Position);
-    },[])
+
+        return(
+            
+            console.log(PositionList)
+        )
+    },[Position])
 
     return(
         <div className="WorkerExperience">
@@ -37,7 +41,7 @@ const WorkerExperience = (
                 <div className="Worker-Division">
                     <ul  className="Worker-Division--List">
                         {
-                            PositionList.map(item => {
+                            PositionList.reverse().map(item => {
                                 return(
                                     <li 
                                     key={item.id}
