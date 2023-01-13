@@ -21,11 +21,10 @@ img
 .AboutMeContainer-Right
 {
     padding: 20px;
-    margin-right: 20px;
-    margin-left: 94px;
-    font-weight: bold;
+  
+
     text-align: justify;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 .AboutMeContainer-Social
