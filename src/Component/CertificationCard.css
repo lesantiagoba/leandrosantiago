@@ -155,13 +155,15 @@ hr
     h2
     {
         margin-bottom: 0;
+        width: 80%;
+        margin: 0 auto;
     
     }
     
     .Licence-Right
     .Right-Company
     {
-        font-size: 15px;
+        font-size: 1.2rem;
         font-weight: bold;
     }
     

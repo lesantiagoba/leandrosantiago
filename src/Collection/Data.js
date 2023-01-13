@@ -92,7 +92,7 @@ export const AboutMe = [
     {
         id:1,
         Name: 'Leandro Santiago Batista',
-        profileImg: '../Common/Profile.jpg',
+        profileImg: 'https://media.licdn.com/dms/image/C5603AQEgJnuK3YJ67w/profile-displayphoto-shrink_800_800/0/1653691762526?e=1678924800&v=beta&t=IAhBVE_UUfrMXjJLjVohJwB5h0jPhGHNz-KGkx8jWRU',
         AboutMe: 'Experienced Information Technology Support Engineer with a demonstrated history of working in the government administration industry. Skilled in WinForms, Responsive Web Design, .NET Framework, JavaScript, and C#. Strong information technology professional graduated from Universidad Catolica Santo Domingo.'
     }
 ]

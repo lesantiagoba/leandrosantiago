@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../Common/Profile.jpg";
+import Profile from "../Common/img/Social/Profile.jpg";
 import twitter from "../Common/img/Social/twitter-svgrepo-com.svg";
 import linkedin from "../Common/img/Social/linkedin-1-svgrepo-com.svg";
 import github from "../Common/img/Social/github-svgrepo-com.svg";
