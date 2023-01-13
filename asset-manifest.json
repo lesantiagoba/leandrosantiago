@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/leandrosantiago/static/css/main.b0cf0c51.css",
-    "main.js": "/leandrosantiago/static/js/main.8cd3b65e.js",
+    "main.css": "/leandrosantiago/static/css/main.4f7885a3.css",
+    "main.js": "/leandrosantiago/static/js/main.b57e589b.js",
     "static/media/Unijobs.png": "/leandrosantiago/static/media/Unijobs.1a52a92b100754b092d7.png",
     "static/media/App.png": "/leandrosantiago/static/media/App.d263fccd792902a5cecb.png",
     "static/media/PokeEPI.png": "/leandrosantiago/static/media/PokeEPI.652ae2b74a6fce1f3955.png",
-    "static/media/Profile.jpg": "/leandrosantiago/static/media/Profile.a5de29b1966778cc159f.jpg",
+    "static/media/Profile.jpg": "/leandrosantiago/static/media/Profile.f2402eb8347a48f2ff18.jpg",
     "static/media/github-svgrepo-com.svg": "/leandrosantiago/static/media/github-svgrepo-com.5050e0274db8aec36a335f97f88d95a2.svg",
     "static/media/twitter-svgrepo-com.svg": "/leandrosantiago/static/media/twitter-svgrepo-com.21e8fe4442b0019b5186480451a06f6f.svg",
     "index.html": "/leandrosantiago/index.html",
     "static/media/linkedin-1-svgrepo-com.svg": "/leandrosantiago/static/media/linkedin-1-svgrepo-com.7fa2b4f3f44e3b8759958b41f0f37d82.svg",
-    "main.b0cf0c51.css.map": "/leandrosantiago/static/css/main.b0cf0c51.css.map",
-    "main.8cd3b65e.js.map": "/leandrosantiago/static/js/main.8cd3b65e.js.map"
+    "main.4f7885a3.css.map": "/leandrosantiago/static/css/main.4f7885a3.css.map",
+    "main.b57e589b.js.map": "/leandrosantiago/static/js/main.b57e589b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0cf0c51.css",
-    "static/js/main.8cd3b65e.js"
+    "static/css/main.4f7885a3.css",
+    "static/js/main.b57e589b.js"
   ]
 }
