@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leandrosantiago/static/css/main.b0cf0c51.css",
-    "main.js": "/leandrosantiago/static/js/main.a603df11.js",
+    "main.js": "/leandrosantiago/static/js/main.8cd3b65e.js",
     "static/media/Unijobs.png": "/leandrosantiago/static/media/Unijobs.1a52a92b100754b092d7.png",
     "static/media/App.png": "/leandrosantiago/static/media/App.d263fccd792902a5cecb.png",
     "static/media/PokeEPI.png": "/leandrosantiago/static/media/PokeEPI.652ae2b74a6fce1f3955.png",
@@ -11,10 +11,10 @@
     "index.html": "/leandrosantiago/index.html",
     "static/media/linkedin-1-svgrepo-com.svg": "/leandrosantiago/static/media/linkedin-1-svgrepo-com.7fa2b4f3f44e3b8759958b41f0f37d82.svg",
     "main.b0cf0c51.css.map": "/leandrosantiago/static/css/main.b0cf0c51.css.map",
-    "main.a603df11.js.map": "/leandrosantiago/static/js/main.a603df11.js.map"
+    "main.8cd3b65e.js.map": "/leandrosantiago/static/js/main.8cd3b65e.js.map"
   },
   "entrypoints": [
     "static/css/main.b0cf0c51.css",
-    "static/js/main.a603df11.js"
+    "static/js/main.8cd3b65e.js"
   ]
 }
